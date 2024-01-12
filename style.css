@@ -119,11 +119,15 @@ nav a:hover {
   scale: 1.1;
   
 }
+.carousel{
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
 
 
 #background-video {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -148,6 +152,11 @@ nav a:hover {
     -webkit-background-clip: text;
             background-clip: text;
   }
+.text-center{
+    border-top: 1px solid white;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+}
   .masthead h2, .masthead .h2 {
     max-width: 20rem;
     letter-spacing: 0.0625em;
@@ -173,6 +182,7 @@ nav a:hover {
 }
 .MEX {
     height: 500px;
+    margin-top: 15rem;
 }
 
 .CEX {
