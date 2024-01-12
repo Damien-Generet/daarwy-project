@@ -186,8 +186,8 @@ nav a:hover {
 }
 
 .container .row .card:hover {
-    background-color: #FF3CAC;
-    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%); border: solid 2px rgba(255, 255, 255, 0);
+    background-color: #ff3caab7;
+    background-image: linear-gradient(225deg, #ff3caadf 0%, #784ba0d8 50%, rgba(43, 133, 197, 0.86) 100%); border: solid rgba(0, 0, 0, 0) 2px;
 }
 
 .btncard {
@@ -204,6 +204,7 @@ nav a:hover {
 .btncard:hover {
     color: lavenderblush;
     background-color: #415FCF;
+}
 
 .CEX {
     border : 2px solid transparent;
@@ -212,4 +213,9 @@ nav a:hover {
     height: 50%;
     object-fit: cover;
 
+}
+
+#pricing {
+    margin: 4vh;
+    font-weight: bolder;
 }
