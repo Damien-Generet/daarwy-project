@@ -16,7 +16,7 @@
 .bouton-yann:active{
     scale: 0.5;
     transition: 0.5s;
-
+}
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 body{
     background-color: #00020D;
