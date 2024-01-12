@@ -25,6 +25,7 @@ body{
 
 }
 
+
 .cadre1, .cadre2, .cadre3, .cadre4, .cadre5, .cadre6{
     border-radius: 50%;
     padding-top: 20px;
@@ -181,7 +182,7 @@ nav a:hover {
     -webkit-background-clip: text;
             background-clip: text;
   }
-.text-center{
+.text-center-title{
     border-top: 1px solid white;
     padding-top: 50px;
     border-bottom: 1px solid white;
@@ -203,9 +204,7 @@ nav a:hover {
     border: 2px solid #F26DA6;
     filter: none;
 }
-.CEX:hover {
 
-}
 .FEX {
     height: 500px;
 }
