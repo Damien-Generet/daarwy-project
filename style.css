@@ -15,7 +15,7 @@ body{
 .cadre1{
     height: 450px;
     width: 450px;
-    background-image: url(img/Alexia.jpg);
+    background-image: url(img/alexia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,37 +35,27 @@ body{
     background-position: center;
     margin: auto;
 }
-.cadre2{
-    height: 450px;
-    width: 450px;
-    background-image: url(img/damien.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
-}
 .cadre3{
     height: 450px;
     width: 450px;
-    background-image: url(img/IMG_9881.JPG);
+    background-image: url(img/winny.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.cadre4{
+    height: 450px;
+    width: 450px;
+    background-image: url(img/alexiacat.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
 }
 
-.cadre4{
-    height: 450px;
-    width: 450px;
-    background-image: url(img/AlexiaCAT.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: auto;
-}
 .cadre5{
     height: 450px;
     width: 450px;
-    background-image: url(img/Raph.jpg);
+    background-image: url(img/ralph.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -74,12 +64,13 @@ body{
 .cadre6{
     height: 450px;
     width: 450px;
-    background-image: url(img/YANN.jpg);
+    background-image: url(img/yann.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
 }
+
 
 .position-text{
     width: 500px;
