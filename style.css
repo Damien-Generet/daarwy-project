@@ -1,6 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 body{
     background-color: #00020D;
+    font-family: 'Comfortaa',Arial, Helvetica, sans-serif;
+
 }
 
 .cadre1, .cadre2, .cadre3, .cadre4, .cadre5, .cadre6{
@@ -13,7 +15,7 @@ body{
 .cadre1{
     height: 450px;
     width: 450px;
-    background-image: url(/img/Alexia.jpg);
+    background-image: url(img/Alexia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -27,7 +29,7 @@ body{
 .cadre2{
     height: 450px;
     width: 450px;
-    background-image: url(/img/damien.jpg);
+    background-image: url(img/damien.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +38,7 @@ body{
 .cadre2{
     height: 450px;
     width: 450px;
-    background-image: url(/img/damien.jpg);
+    background-image: url(img/damien.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +47,7 @@ body{
 .cadre3{
     height: 450px;
     width: 450px;
-    background-image: url(/img/IMG_9881.JPG);
+    background-image: url(img/IMG_9881.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
@@ -54,7 +56,7 @@ body{
 .cadre4{
     height: 450px;
     width: 450px;
-    background-image: url(/img/AlexiaCAT.jpg);
+    background-image: url(img/AlexiaCAT.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,7 +65,7 @@ body{
 .cadre5{
     height: 450px;
     width: 450px;
-    background-image: url(/img/Raph.jpg);
+    background-image: url(img/Raph.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +74,7 @@ body{
 .cadre6{
     height: 450px;
     width: 450px;
-    background-image: url(/img/YANN.jpg);
+    background-image: url(img/YANN.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
