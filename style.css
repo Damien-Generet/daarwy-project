@@ -1,3 +1,22 @@
+
+.bouton-yann{
+    font-size: x-large;
+    transition: 1s;
+}
+
+.bouton-yann:hover{
+    /* font-size:xx-large; */
+    scale: 1.5;
+    transition: 0.5s;
+
+    
+
+    
+}
+.bouton-yann:active{
+    scale: 0.5;
+    transition: 0.5s;
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 body{
     background-color: #00020D;
@@ -112,12 +131,21 @@ body{
 }
 
 nav:hover {
-  background: linear-gradient(180deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(255,255,255,0) 100%);
+}
+
+.size-logo {
+  font-size: 1.2em;
+  text-decoration: underline;
 }
 
 nav a:hover {
   scale: 1.1;
   
+}
+
+.gap-nav ul {
+  gap: 5em;
 }
 
 
@@ -218,4 +246,7 @@ nav a:hover {
 #pricing {
     margin: 4vh;
     font-weight: bolder;
+
+
+
 }
