@@ -100,12 +100,15 @@ body{
     margin-bottom: 50px;
 }
 
-a {
-    color: var(--bs-link-color);
-    text-decoration: underline;
+.btn {
+    background-color: #0439d9;
+    opacity: 0.8;
+    color: white;
+    border: none;
 }
-a:hover {
-    color: var(--bs-link-hover-color);
+.btn-primary:hover {
+    background-color: #0439d9;
+    opacity: 0.6;
 }
 
 nav:hover {
@@ -120,9 +123,9 @@ nav a:hover {
 
 #background-video {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     top: 0;
@@ -138,9 +141,7 @@ nav a:hover {
     letter-spacing: 0.0625em;
   }
   .masthead h1, .masthead .h1 {
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    line-height: var(--bs-body-line-height);
+    font-size: 5rem;
     letter-spacing: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
@@ -149,6 +150,7 @@ nav a:hover {
   }
   .masthead h2, .masthead .h2 {
     max-width: 20rem;
+    letter-spacing: 0.0625em;
     font-size: 1rem;
   }  
 
