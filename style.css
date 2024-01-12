@@ -152,7 +152,7 @@ nav a:hover {
     -webkit-background-clip: text;
             background-clip: text;
   }
-.text-center{
+.text-center-title{
     border-top: 1px solid white;
     padding-top: 50px;
     border-bottom: 1px solid white;
@@ -174,9 +174,7 @@ nav a:hover {
     border: 2px solid #F26DA6;
     filter: none;
 }
-.CEX:hover {
 
-}
 .FEX {
     height: 500px;
 }
