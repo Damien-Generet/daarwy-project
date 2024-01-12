@@ -1,3 +1,22 @@
+
+.bouton-yann{
+    font-size: x-large;
+    transition: 1s;
+}
+
+.bouton-yann:hover{
+    /* font-size:xx-large; */
+    scale: 1.5;
+    transition: 0.5s;
+
+    
+
+    
+}
+.bouton-yann:active{
+    scale: 0.5;
+    transition: 0.5s;
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 body{
     background-color: #00020D;
@@ -211,5 +230,6 @@ nav a:hover {
 .GFEX {
     height: 50%;
     object-fit: cover;
+
 
 }
