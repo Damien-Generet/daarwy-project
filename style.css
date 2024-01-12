@@ -1,4 +1,112 @@
 
+body{
+    background-color: #00020D;
+}
+
+.cadre1, .cadre2, .cadre3, .cadre4, .cadre5, .cadre6{
+    border-radius: 50%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadre1{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/Alexia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.neon-border{
+    height: 630px;
+    margin-bottom: 10px;
+}
+
+.cadre2{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/damien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre2{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/damien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre3{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/IMG_9881.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.cadre4{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/AlexiaCAT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre5{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/Raph.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+.cadre6{
+    height: 450px;
+    width: 450px;
+    background-image: url(/img/YANN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.position-text{
+    width: 500px;
+    margin: auto;
+}
+
+.carousel-caption{
+    backdrop-filter: blur(0px);
+    backdrop-filter: brightness(100%);
+    color: #f26da700;
+    transition: 1s;
+    border-radius: 30px;
+    width: 300px;
+    margin-bottom: 50px;
+}
+.carousel-caption h5{
+    text-decoration: underline;
+}
+
+.carousel-caption:hover{
+    backdrop-filter: blur(20px) brightness(50%);
+    color: #F26DA6;
+}
+
+.carousel-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 a {
     color: var(--bs-link-color);
     text-decoration: underline;
@@ -40,7 +148,7 @@ a:hover {
     max-width: 20rem;
     font-size: 1rem;
   }  
-=======
+
 .FEX img {
     filter: grayscale(1);
     transition: transform .5s, filter 1.5s ease-in-out;
@@ -53,5 +161,6 @@ a:hover {
     transform: scale(1.1);
     object-fit: cover;
 }
+
 
 
