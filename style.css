@@ -1,3 +1,4 @@
+
 a {
     color: var(--bs-link-color);
     text-decoration: underline;
@@ -39,3 +40,15 @@ a:hover {
     max-width: 20rem;
     font-size: 1rem;
   }  
+=======
+.FEX img {
+    filter: grayscale(1);
+    /* transition: all .2s ease-in-out; */
+}
+
+.FEX img:hover {
+    filter: none;
+    transform: scale(1.1);
+    object-fit: cover;
+}
+
